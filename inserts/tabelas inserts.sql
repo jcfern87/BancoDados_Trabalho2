@@ -164,7 +164,8 @@ INSERT INTO animal (nome, id_animal, raca, data_nascimento, cpf_dono, id_especie
 INSERT INTO animal (nome, id_animal, raca, data_nascimento, cpf_dono, id_especie) VALUES ('Mimosa', 36, 'Vaca Jersey', '2017-03-10', '66677788899', 6);
 INSERT INTO animal (nome, id_animal, raca, data_nascimento, cpf_dono, id_especie) VALUES ('Bacon', 37, 'Porco Vietnamita', '2019-11-25', '77788899900', 7);
 INSERT INTO animal (nome, id_animal, raca, data_nascimento, cpf_dono, id_especie) VALUES ('Cotton', 38, 'Ovelha Merino', '2020-08-15', '88899900011', 8);
-INSERT INTO animal (nome, id_animal, raca, data_nascimento, cpf_dono, id_especie) VALUES ('Balerion', 39, 'Gigante', '2020-05-10', '12345678900', 40);
+INSERT INTO animal (nome, id_animal, raca, data_nascimento, cpf_dono, id_especie) VALUES ('Balerion', 39, 'Gigante', '2020-05-10', '23410316304', 40);
+INSERT INTO animal (nome, id_animal, raca, data_nascimento, cpf_dono, id_especie) VALUES ('Valeria', 40, 'Real', '2020-05-10', '12345678900', 20);
 
 --Medicamento
 INSERT INTO medicamento (nome, id_medicamento, dosagem, tipo_controle) VALUES ('Amoxicilina', 1, '500mg', 'Receita Controlada');
@@ -247,8 +248,8 @@ INSERT INTO consulta (id_consulta, data, diagnostico, custo, crmv_vet, id_animal
 INSERT INTO consulta (id_consulta, data, diagnostico, custo, crmv_vet, id_animal, cpf_dono) VALUES (36, '2025-08-22', 'Problemas de próstata', 200.00, 'ES1234', 36, '66677788899');
 INSERT INTO consulta (id_consulta, data, diagnostico, custo, crmv_vet, id_animal, cpf_dono) VALUES (37, '2025-08-23', 'Consulta emergencial', 300.00, 'ES2345', 37, '77788899900');
 INSERT INTO consulta (id_consulta, data, diagnostico, custo, crmv_vet, id_animal, cpf_dono) VALUES (38, '2025-08-24', 'Problemas de vesícula', 180.00, 'ES3456', 38, '88899900011');
-INSERT INTO consulta (id_consulta, data, diagnostico, custo, crmv_vet, id_animal, cpf_dono) VALUES (39, '2025-08-25', 'Eutanásia', 150.00, 'ES4567', 39, '99900011122');
-INSERT INTO consulta (id_consulta, data, diagnostico, custo, crmv_vet, id_animal, cpf_dono) VALUES (40, '2025-08-25', 'Eutanásia', 150.00, 'ES4567', 40, '23410316304');
+INSERT INTO consulta (id_consulta, data, diagnostico, custo, crmv_vet, id_animal, cpf_dono) VALUES (39, '2025-08-25', 'Eutanásia', 150.00, 'ES4567', 40, '99900011122');
+INSERT INTO consulta (id_consulta, data, diagnostico, custo, crmv_vet, id_animal, cpf_dono) VALUES (40, '2025-08-25', 'Eutanásia', 150.00, 'ES9512', 39, '23410316304');
 
 --Laudo
 INSERT INTO laudo (id_laudo, detalhes, exames_solicitados, id_consulta) VALUES (1, 'Otite diagnosticada após avaliação. Prescrito antibiótico.', 'Otoscopia, Cultura', 1);
