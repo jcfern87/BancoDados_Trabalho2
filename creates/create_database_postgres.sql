@@ -1,6 +1,5 @@
 -- Criar o banco
 CREATE DATABASE hospital;
-\c hospital;
 
 -- cria o schema
 CREATE SCHEMA public
